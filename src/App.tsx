@@ -288,14 +288,14 @@ export default function App() {
       <header className="site-header">
         <div className="header-inner">
           <a className="brand" href="#top">
-            Elena Voss
+            Abel Lemma
           </a>
           <nav className="nav">
             <a href="#works">Works</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/abel_lema_studio"
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram"
@@ -386,7 +386,7 @@ export default function App() {
             <div className="about-block">
               <h3>Biography</h3>
               <p>
-                Elena Voss is an abstract painter exploring atmosphere through
+                Abel Lemma is an abstract painter exploring atmosphere through
                 layered color fields and restrained geometry. Her work is shaped
                 by long walks along coastal edges, studio improvisations, and a
                 devotion to slow visual rhythms.
