@@ -27,8 +27,8 @@ const artworks: Artwork[] = [
     available: true,
     thumbnail: '/artworks/thumbs/IMG_0113.JPG',
     full: '/artworks/IMG_0113.JPG',
-    colSpan: 5,
-    rowSpan: 2,
+    colSpan: 3,
+    rowSpan: 1,
   },
   {
     id: 'a2',
@@ -39,7 +39,7 @@ const artworks: Artwork[] = [
     available: false,
     thumbnail: '/artworks/thumbs/IMG_0128.JPG',
     full: '/artworks/IMG_0128.JPG',
-    colSpan: 4,
+    colSpan: 3,
     rowSpan: 1,
   },
   {
@@ -51,8 +51,8 @@ const artworks: Artwork[] = [
     available: true,
     thumbnail: '/artworks/thumbs/IMG_0135.JPG',
     full: '/artworks/IMG_0135.JPG',
-    colSpan: 3,
-    rowSpan: 2,
+    colSpan: 2,
+    rowSpan: 1,
   },
   {
     id: 'a4',
@@ -63,7 +63,7 @@ const artworks: Artwork[] = [
     available: true,
     thumbnail: '/artworks/thumbs/IMG_0150.JPG',
     full: '/artworks/IMG_0150.JPG',
-    colSpan: 4,
+    colSpan: 2,
     rowSpan: 1,
   },
   {
@@ -75,8 +75,8 @@ const artworks: Artwork[] = [
     available: false,
     thumbnail: '/artworks/thumbs/IMG_0151.JPG',
     full: '/artworks/IMG_0151.JPG',
-    colSpan: 6,
-    rowSpan: 2,
+    colSpan: 2,
+    rowSpan: 1,
   },
   {
     id: 'a6',
@@ -87,7 +87,7 @@ const artworks: Artwork[] = [
     available: true,
     thumbnail: '/artworks/thumbs/IMG_0157-1.JPG',
     full: '/artworks/IMG_0157-1.JPG',
-    colSpan: 3,
+    colSpan: 4,
     rowSpan: 1,
   },
   {
@@ -99,7 +99,7 @@ const artworks: Artwork[] = [
     available: false,
     thumbnail: '/artworks/thumbs/IMG_20231202_171941_493.jpg',
     full: '/artworks/IMG_20231202_171941_493.jpg',
-    colSpan: 5,
+    colSpan: 2,
     rowSpan: 1,
   },
   {
@@ -111,8 +111,8 @@ const artworks: Artwork[] = [
     available: true,
     thumbnail: '/artworks/thumbs/IMG_20241101_211241_442.JPG',
     full: '/artworks/IMG_20241101_211241_442.JPG',
-    colSpan: 4,
-    rowSpan: 2,
+    colSpan: 2,
+    rowSpan: 1,
   },
   {
     id: 'a9',
@@ -123,7 +123,7 @@ const artworks: Artwork[] = [
     available: false,
     thumbnail: '/artworks/thumbs/IMG_20241101_211301_690.JPG',
     full: '/artworks/IMG_20241101_211301_690.JPG',
-    colSpan: 3,
+    colSpan: 4,
     rowSpan: 1,
   },
   {
@@ -135,7 +135,7 @@ const artworks: Artwork[] = [
     available: true,
     thumbnail: '/artworks/thumbs/IMG_20241101_211422_369.JPG',
     full: '/artworks/IMG_20241101_211422_369.JPG',
-    colSpan: 5,
+    colSpan: 3,
     rowSpan: 1,
   },
   {
@@ -147,7 +147,7 @@ const artworks: Artwork[] = [
     available: true,
     thumbnail: '/artworks/thumbs/-5794095454684825216_121.jpg',
     full: '/artworks/-5794095454684825216_121.jpg',
-    colSpan: 4,
+    colSpan: 3,
     rowSpan: 1,
   },
   {
@@ -159,8 +159,8 @@ const artworks: Artwork[] = [
     available: false,
     thumbnail: '/artworks/thumbs/-5794095454684825220_121.jpg',
     full: '/artworks/-5794095454684825220_121.jpg',
-    colSpan: 3,
-    rowSpan: 2,
+    colSpan: 6,
+    rowSpan: 1,
   },
 ]
 

@@ -165,8 +165,8 @@ h1 {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  gap: clamp(16px, 2vw, 28px);
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: clamp(20px, 2.5vw, 32px);
   grid-auto-flow: dense;
   transition: opacity 0.25s ease, transform 0.25s ease;
 }
@@ -405,7 +405,11 @@ h1 {
   }
 
   .works-grid {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .work-card {
+    grid-column: span min(var(--col-span, 2), 2);
   }
 }
 
