@@ -4,15 +4,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  font-family: 'Fraunces', serif;
-  color: #111111;
-  background-color: #f7f5f2;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  scroll-behavior: smooth;
-}
-
 body {
   margin: 0;
   min-height: 100vh;
@@ -183,7 +174,7 @@ h1 {
   text-align: left;
   cursor: pointer;
   position: relative;
-  grid-column: span var(--col-span, 4);
+  grid-column: span var(--col-span, 3);
   grid-row: span var(--row-span, 1);
   overflow: hidden;
 }
@@ -398,6 +389,12 @@ h1 {
   color: #5a534f;
 }
 
+.site-footer {
+  padding: 2rem clamp(1.5rem, 4vw, 3rem) 3rem;
+  color: #6b625c;
+  font-size: 0.85rem;
+}
+
 @media (max-width: 960px) {
   .section-header {
     flex-direction: column;
@@ -435,3 +432,4 @@ h1 {
     grid-column: span 2;
   }
 }
+

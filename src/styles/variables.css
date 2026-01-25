@@ -1,0 +1,9 @@
+:root {
+  font-family: 'Fraunces', serif;
+  color: #111111;
+  background-color: #f7f5f2;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
