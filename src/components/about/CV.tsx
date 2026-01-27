@@ -6,7 +6,7 @@ export default function CV() {
       <h3>CV</h3>
       <div className="cv-group">
         <p className="cv-title">Exhibitions</p>
-        <ul>
+        <ul className="cv-list">
           {exhibitions.map((item) => (
             <li key={item.text}>
               <span>{item.year}</span>
@@ -17,7 +17,7 @@ export default function CV() {
       </div>
       <div className="cv-group">
         <p className="cv-title">Education</p>
-        <ul>
+        <ul className="cv-list">
           {education.map((item) => (
             <li key={item.text}>
               <span>{item.year}</span>
@@ -28,7 +28,7 @@ export default function CV() {
       </div>
       <div className="cv-group">
         <p className="cv-title">Selected works</p>
-        <ul>
+        <ul className="cv-list plain">
           {selectedWorks.map((item) => (
             <li key={item}>{item}</li>
           ))}

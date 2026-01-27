@@ -63,6 +63,26 @@ textarea {
   letter-spacing: 0.04em;
 }
 
+.nav-toggle {
+  display: none;
+  border: none;
+  background: transparent;
+  padding: 0.4rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  flex-direction: column;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #111111;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
 .icon-link svg {
   width: 20px;
   height: 20px;
@@ -259,7 +279,7 @@ h1 {
   margin-bottom: 0.6rem;
 }
 
-.about-block ul {
+.cv-list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -267,16 +287,20 @@ h1 {
   gap: 0.6rem;
 }
 
-.about-block li {
+.cv-list li {
   display: grid;
   grid-template-columns: 52px 1fr;
   gap: 0.6rem;
   color: #3d3733;
 }
 
-.about-block li span {
+.cv-list li span {
   color: #8b817a;
   font-size: 0.85rem;
+}
+
+.cv-list.plain li {
+  display: block;
 }
 
 .contact-form {
@@ -416,8 +440,23 @@ h1 {
     align-items: flex-start;
   }
 
+  .nav-toggle {
+    display: inline-flex;
+    align-self: flex-end;
+  }
+
   .nav {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-top: 0.5rem;
     flex-wrap: wrap;
+    display: none;
+  }
+
+  .nav.is-open {
+    display: flex;
   }
 
   .hero {

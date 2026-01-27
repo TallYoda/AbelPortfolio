@@ -6,17 +6,27 @@ import ArtworkOverlay from './ArtworkOverlay'
 type ArtworkCardProps = {
   artwork: Artwork
   onClick: () => void
+  colSpan?: number
+  rowSpan?: number
 }
 
-export default function ArtworkCard({ artwork, onClick }: ArtworkCardProps) {
+export default function ArtworkCard({
+  artwork,
+  onClick,
+  colSpan,
+  rowSpan,
+}: ArtworkCardProps) {
+  const columnSpan = colSpan ?? artwork.colSpan
+  const rowSpanValue = rowSpan ?? artwork.rowSpan
+
   return (
     <button
       type="button"
       className="work-card"
       style={
         {
-          '--col-span': artwork.colSpan,
-          '--row-span': artwork.rowSpan,
+          '--col-span': columnSpan,
+          '--row-span': rowSpanValue,
         } as CSSProperties
       }
       onClick={onClick}

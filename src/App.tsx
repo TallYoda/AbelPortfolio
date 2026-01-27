@@ -13,10 +13,11 @@ export default function App() {
         <section className="hero">
           <div className="hero-inner">
             <p className="eyebrow">Abstract painter</p>
-            <h1>Atmospheric compositions shaped by light, memory, and rhythm.</h1>
+            <h1>Expressive compositions built through layered surfaces, gesture, and material tension.
+            </h1>
             <p className="lede">
-              Studio practice rooted in layered pigment, slow gestures, and
-              luminous color fields. Based in Seattle, working internationally.
+            Studio practice driven by dense pigment, scraping, and intuitive mark-making, where fragmented forms and symbols emerge from memory and lived experience.
+            Based in Addis Ababa, Ethiopia.
             </p>
           </div>
         </section>
