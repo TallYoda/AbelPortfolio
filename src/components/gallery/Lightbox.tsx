@@ -25,7 +25,7 @@ export default function Lightbox({ artwork, onClose }: LightboxProps) {
         <div className="lightbox-meta">
           <h3>{artwork.title}</h3>
           <p>
-            {artwork.medium} · {artwork.dimensions} · {artwork.year}
+            {artwork.medium} · {artwork.dimensions}
           </p>
           <p>{artwork.available ? 'Available' : 'Sold'}</p>
         </div>

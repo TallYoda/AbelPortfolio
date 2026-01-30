@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -8,7 +9,7 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="header-inner">
-        <a className="brand" href="#top">
+        <a className="brand" href="/">
           Abel Lema
         </a>
         <button
@@ -23,15 +24,18 @@ export default function Header() {
           <span />
         </button>
         <nav className={`nav ${isOpen ? 'is-open' : ''}`}>
-          <a href="#works" onClick={handleClose}>
+          <a href="/#works" onClick={handleClose}>
             Works
           </a>
-          <a href="#about" onClick={handleClose}>
+          <a href="/#about" onClick={handleClose}>
             About
           </a>
-          <a href="#contact" onClick={handleClose}>
+          <a href="/#contact" onClick={handleClose}>
             Contact
           </a>
+          <Link to="/gallery" onClick={handleClose}>
+            Gallery
+          </Link>
           <a
             href="https://www.instagram.com/abel_lema_studio"
             target="_blank"

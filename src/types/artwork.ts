@@ -3,7 +3,6 @@ export type Artwork = {
   title: string
   medium: string
   dimensions: string
-  year: string
   available: boolean
   thumbnail: string
   full: string
