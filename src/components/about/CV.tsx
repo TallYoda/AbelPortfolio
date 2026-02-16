@@ -1,4 +1,10 @@
-import { education, exhibitions, selectedWorks } from '../../data/cv'
+import {
+  education,
+  exhibitions,
+  prizes,
+  projects,
+  selectedWorks,
+} from '../../data/cv'
 
 export default function CV() {
   return (
@@ -34,6 +40,31 @@ export default function CV() {
           ))}
         </ul>
       </div>
+      <div className="cv-group">
+        <p className="cv-title">Projects</p>
+        <ul className="cv-list">
+          {projects.map((item) => (
+            <li key={item.text}>
+              <span>{item.year}</span>
+              {item.text}
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="cv-group">
+        <p className="cv-title">Prizes</p>
+        <ul className="cv-list">
+          {prizes.map((item) => (
+            <li key={item.text}>
+              <span>{item.year}</span>
+              {item.text}
+            </li>
+          ))}
+        </ul>
+      </div>
+      <a className="cv-download" href="/cv/Abel-Lemma-CV.pdf" download>
+        Check out my CV
+      </a>
     </div>
   )
 }

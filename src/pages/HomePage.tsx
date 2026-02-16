@@ -9,13 +9,23 @@ export default function HomePage() {
         <div className="hero-inner">
           <p className="eyebrow">Abstract painter</p>
           <h1>
-            Expressive compositions built through layered surfaces, gesture, and
-            material tension.
+          Studio practice centered on intuitive mark-making in acrylic and ink on canvas, 
+          where fragmented forms and symbols 
+          surface from memory and lived experience. 
+          Based in Addis Ababa, Ethiopia.
+            
           </h1>
           <p className="lede">
-            Studio practice driven by dense pigment, scraping, and intuitive
-            mark-making, where fragmented forms and symbols emerge from memory
-            and lived experience. Based in Addis Ababa, Ethiopia.
+           Good to witness 
+           On the canvas <br/>
+           lines flowing freely with curiosity <br/>
+           creating forms shaped by
+           the paths <br/>
+           they've travelled 
+           and each form holding <br/>
+           colors 
+           that either reveal <br/>
+           or conceal its identity 
           </p>
         </div>
       </section>

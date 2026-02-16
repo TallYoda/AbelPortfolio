@@ -10,9 +10,18 @@ export default function AboutSection() {
         <h2>About</h2>
       </div>
       <div className="about-grid">
-        <Biography />
-        <ArtistStatement />
-        <CV />
+        <div className="about-left">
+          <figure className="about-portrait">
+            <img src="/artworks/Portrait.jpeg" alt="Artist portrait" />
+          </figure>
+          <Biography />
+        </div>
+        <div className="about-statement">
+          <ArtistStatement />
+        </div>
+        <div className="about-cv">
+          <CV />
+        </div>
       </div>
     </Section>
   )

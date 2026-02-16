@@ -55,11 +55,8 @@ export default function GalleryPage() {
             <p>
               Scenes from my studio 11 exhibition titled{' '}
               <span className="italic">Between Then and When</span>. These
-              images trace the quiet geography of the studio -- light settling
-              on surfaces, pigment drying into memory, and the pause between one
-              gesture and the next. Each frame is a small meditation on process:
-              the residue of time, the texture of waiting, and the slow
-              unfolding of a painting into its own atmosphere.
+              images are taken from my debut solo exhibition at Studio 11, Including snapshots
+              from the artisit talk I took part in at opening day.
             </p>
           </div>
         </div>

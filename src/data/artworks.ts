@@ -111,17 +111,7 @@ export const artworks: Artwork[] = [
     colSpan: 2,
     rowSpan: 1,
   },
-  {
-    id: 'a11',
-    title: 'The Witness',
-    medium: 'Acrylic on Ink',
-    dimensions: '130 × 130 cm',
-    available: true,
-    thumbnail: '/artworks/thumbs/The_Witness_130x130.JPG',
-    full: '/artworks/The_Witness_130x130.JPG',
-    colSpan: 3,
-    rowSpan: 1,
-  },
+  
   {
     id: 'a12',
     title: 'Untitled 02',
