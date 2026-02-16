@@ -1,7 +1,6 @@
 import Section from '../components/layout/Section'
 import Biography from '../components/about/Biography'
 import ArtistStatement from '../components/about/ArtistStatement'
-import CV from '../components/about/CV'
 
 export default function AboutSection() {
   return (
@@ -18,9 +17,6 @@ export default function AboutSection() {
         </div>
         <div className="about-statement">
           <ArtistStatement />
-        </div>
-        <div className="about-cv">
-          <CV />
         </div>
       </div>
     </Section>

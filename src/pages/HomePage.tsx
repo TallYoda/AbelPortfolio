@@ -1,6 +1,7 @@
 import WorksSection from '../sections/WorksSection'
 import AboutSection from '../sections/AboutSection'
 import ContactSection from '../sections/ContactSection'
+import CVSection from '../sections/CVSection'
 
 export default function HomePage() {
   return (
@@ -32,6 +33,7 @@ export default function HomePage() {
 
       <WorksSection />
       <AboutSection />
+      <CVSection />
       <ContactSection />
     </main>
   )

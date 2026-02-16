@@ -30,6 +30,9 @@ export default function Header() {
           <a href="/#about" onClick={handleClose}>
             About
           </a>
+          <a href="/#cv" onClick={handleClose}>
+            CV
+          </a>
           <a href="/#contact" onClick={handleClose}>
             Contact
           </a>
