@@ -1,12 +1,13 @@
 export const exhibitions = [
   {
-    year: '2025',
-    text: 'Solo Show, Between Then and Where — Studio 11 Gallery, Addis Abeba, Ethiopia',
-  },
-  {
     year: '2026',
     text: 'Group Show, Elemental Motion — Addis Cinema Complex Gallery, Addis Abeba, Ethiopia',
   },
+  {
+    year: '2025',
+    text: 'Solo Show, Between Then and Where — Studio 11 Gallery, Addis Abeba, Ethiopia',
+  },
+  
   
 ]
 
