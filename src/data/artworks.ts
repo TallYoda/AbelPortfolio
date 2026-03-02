@@ -4,7 +4,7 @@ export const artworks: Artwork[] = [
   {
     id: 'a6',
     title: 'Key to the Deep',
-    medium: 'Acrylic on Ink',
+    medium: 'Acrylic on Canvas',
     dimensions: '140 × 140 cm',
     available: false,
     thumbnail: '/artworks/thumbs/Key_to_the_Deep_140x140.jpg',
@@ -15,7 +15,7 @@ export const artworks: Artwork[] = [
   {
     id: 'a17',
     title: 'Winter Memories',
-    medium: 'Acrylic on Ink',
+    medium: 'Acrylic on Canvas',
     dimensions: '110 × 100 cm',
     available: false,
     thumbnail: '/artworks/thumbs/Winter_Memories_110x100.jpg',
@@ -37,7 +37,7 @@ export const artworks: Artwork[] = [
   {
     id: 'a4',
     title: 'Half of Love',
-    medium: 'Acrylic on Ink',
+    medium: 'Acrylic on Canvas',
     dimensions: '140 × 140 cm',
     available: true,
     thumbnail: '/artworks/thumbs/Half_of_Love_140x140.jpg',
@@ -48,7 +48,7 @@ export const artworks: Artwork[] = [
   {
     id: 'a1',
     title: 'Death after Death',
-    medium: 'Acrylic on Ink',
+    medium: 'Acrylic on Canvas',
     dimensions: '140 × 140 cm',
     available: true,
     thumbnail: '/artworks/thumbs/Death_after_Death_140x140.jpg',
@@ -59,7 +59,7 @@ export const artworks: Artwork[] = [
   {
     id: 'a2',
     title: 'Dilemma',
-    medium: 'Acrylic on Ink',
+    medium: 'Acrylic on Canvas',
     dimensions: '140 × 140 cm',
     available: true,
     thumbnail: '/artworks/thumbs/Dilemma_140x140.jpg',
@@ -70,7 +70,7 @@ export const artworks: Artwork[] = [
   {
     id: 'a3',
     title: 'From the Wind',
-    medium: 'Acrylic on Ink',
+    medium: 'Acrylic on Canvas',
     dimensions: '130 × 130 cm',
     available: false,
     thumbnail: '/artworks/thumbs/From_the_Wind_130x130.JPG',
@@ -81,7 +81,7 @@ export const artworks: Artwork[] = [
   {
     id: 'a10',
     title: 'The Dialogue',
-    medium: 'Acrylic on Ink',
+    medium: 'Acrylic on Canvas',
     dimensions: '40 × 70 cm',
     available: false,
     thumbnail: '/artworks/thumbs/The_Dialogue_40x70.JPG',
@@ -93,7 +93,7 @@ export const artworks: Artwork[] = [
   {
     id: 'a14',
     title: 'Voyager',
-    medium: 'Acrylic on Ink',
+    medium: 'Acrylic on Canvas',
     dimensions: '110 × 110 cm',
     available: true,
     thumbnail: '/artworks/thumbs/Voyager_110x110.jpg',
