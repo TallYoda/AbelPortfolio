@@ -10,7 +10,7 @@ export default function HomePage() {
         <div className="hero-inner">
           <p className="eyebrow">Abstract painter</p>
           <h1>
-          Studio practice centered on intuitive mark-making in acrylic and ink on canvas, 
+          Studio practice centered on intuitive mark-making in acrylic and mixed media on canvas, 
           where fragmented forms and symbols 
           surface from memory and lived experience. 
           Based in Addis Ababa, Ethiopia.
