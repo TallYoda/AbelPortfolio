@@ -444,7 +444,7 @@ h1 {
 .lightbox-content img {
   width: 100%;
   max-height: 70vh;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .lightbox-close {
