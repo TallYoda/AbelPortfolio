@@ -1,7 +1,7 @@
 type ArtworkOverlayProps = {
   title: string
   medium: string
-  dimensions: string
+  dimensions?: string
 }
 
 export default function ArtworkOverlay({
@@ -13,7 +13,7 @@ export default function ArtworkOverlay({
     <span className="work-overlay">
       <span className="work-title">{title}</span>
       <span className="work-meta">
-        {medium} · {dimensions}
+        {dimensions ? `${medium} · ${dimensions}` : medium}
       </span>
     </span>
   )

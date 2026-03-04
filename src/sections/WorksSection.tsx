@@ -1,5 +1,6 @@
 import Section from '../components/layout/Section'
 import { artworks } from '../data/artworks'
+import { sketches } from '../data/sketches'
 import { useFilter } from '../hooks/useFilter'
 import { useLightbox } from '../hooks/useLightbox'
 import { useScrollLock } from '../hooks/useScrollLock'
@@ -9,7 +10,7 @@ import Lightbox from '../components/gallery/Lightbox'
 
 export default function WorksSection() {
   const { selectedFilter, setFilter, isFiltering, visibleArtworks } =
-    useFilter(artworks)
+    useFilter(artworks, sketches)
   const { activeArtwork, openArtwork, closeArtwork } = useLightbox()
 
   useScrollLock(Boolean(activeArtwork))

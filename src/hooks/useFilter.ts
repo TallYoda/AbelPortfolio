@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Artwork } from '../types/artwork'
 
-export type FilterValue = 'all' | 'available'
+export type FilterValue = 'all' | 'available' | 'sketches'
 
-export function useFilter(artworks: Artwork[]) {
+export function useFilter(artworks: Artwork[], sketches: Artwork[]) {
   const [selectedFilter, setSelectedFilter] = useState<FilterValue>('all')
   const [renderFilter, setRenderFilter] = useState<FilterValue>('all')
   const [isFiltering, setIsFiltering] = useState(false)
@@ -13,8 +13,11 @@ export function useFilter(artworks: Artwork[]) {
     if (renderFilter === 'available') {
       return artworks.filter((artwork) => artwork.available)
     }
+    if (renderFilter === 'sketches') {
+      return sketches
+    }
     return artworks
-  }, [artworks, renderFilter])
+  }, [artworks, renderFilter, sketches])
 
   useEffect(() => {
     return () => {
