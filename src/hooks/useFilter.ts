@@ -30,12 +30,12 @@ export function useFilter(artworks: Artwork[], sketches: Artwork[]) {
   const setFilter = (nextFilter: FilterValue) => {
     if (nextFilter === selectedFilter) return
     setSelectedFilter(nextFilter)
+    setRenderFilter(nextFilter)
     setIsFiltering(true)
     if (filterTimeout.current !== null) {
       window.clearTimeout(filterTimeout.current)
     }
     filterTimeout.current = window.setTimeout(() => {
-      setRenderFilter(nextFilter)
       setIsFiltering(false)
     }, 240)
   }
