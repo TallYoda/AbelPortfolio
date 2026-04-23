@@ -320,6 +320,12 @@ h1 {
   color: #3d3733;
 }
 
+.artist-statement p {
+  font-style: italic;
+  letter-spacing: 0.02em;
+  line-height: 1.9;
+}
+
 .cv-group {
   margin-bottom: 1.8rem;
 }

@@ -21,9 +21,8 @@ export default function Biography() {
       </p>
       <p>
         Since graduating from the Alle School of Fine Arts and Design in 2022,
-        Abel has worked as a studio artist and participated in several group
-        exhibitions and workshops. He also earned second prize in the "Redeem
-        the Generation" art competition.
+        Abel has worked as a studio artist and participated in a solo and several group
+        exhibitions and workshops. 
       </p>
     </div>
   )

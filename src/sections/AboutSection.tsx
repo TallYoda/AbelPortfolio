@@ -1,5 +1,6 @@
 import Section from '../components/layout/Section'
 import Biography from '../components/about/Biography'
+import ArtistStatement from '../components/about/ArtistStatement'
 
 export default function AboutSection() {
   return (
@@ -14,6 +15,7 @@ export default function AboutSection() {
           </figure>
           <Biography />
         </div>
+        <ArtistStatement />
       </div>
     </Section>
   )
