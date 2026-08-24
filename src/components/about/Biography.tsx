@@ -3,28 +3,22 @@ export default function Biography() {
     <div className="about-block">
       <h3>Biography</h3>
       <p>
-        Abel Lema is a young upcoming contemporary Ethiopia artist based in
-        Addis Abeba. He grew up surrounded by the area's picturesque lakes and
-        breathtaking natural scenery. He often describes this early connection
-        with nature as his first source of artistic inspiration. Abel views
-        himself as interconnected with all living beings, sharing the present
-        and eternal moments of life, a philosophy that deeply influences his
-        artistic perspective and approach.
-      </p>
-      <p>
-        While attending the Alle School of Fine Arts and Design, Abel was
-        inspired by fleeting, unnoticed moments that shape our lives. This led
-        him to explore the enigmatic nature of time and the complexities of
-        commodification in contemporary society. Through his work, Abel immers
-        into the paradoxes of time and humanity's divine impulse not only to
-        create but to become the architects of our own realities.
+        Abel Lema is a contemporary Ethiopian artist based in Addis Ababa. He
+        grew up in Debre Zeyit, surrounded by the area's lakes and natural
+        scenery, and often describes this early connection with nature as his
+        first source of artistic inspiration. Abel views himself as interconnected with all
+        living beings, sharing the present and eternal moments of life, a
+        philosophy that deeply influences his artistic perspective and approach.
       </p>
       <p>
         Since graduating from the Alle School of Fine Arts and Design in 2022,
-        Abel has worked as a studio artist and participated in a solo and several group
-        exhibitions and workshops. 
+        Abel has worked as a studio artist and taught art at different
+        institutions. He has held a solo exhibition at Studio Eleven and shown
+        work in group exhibitions, with pieces held as part of a collection at
+        the Ethiopian Capital Market headquarters. He has also participated in
+        an art co-creating program centered around trauma survivors, with the
+        resulting works exhibited at Studio Eleven.
       </p>
     </div>
   )
 }
-
